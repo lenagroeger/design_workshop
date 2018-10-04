@@ -1,2 +1,2 @@
-# design_workshop
-Design for Journalists + Exercises
+# designforj
+Design for Journalists
