@@ -175,22 +175,12 @@ height: 100%;
 }
 
 .reveal .slides>section.present {
-  display: block;
-  z-index: 11;
-  opacity: 1;
+    display: flex !important;
+    z-index: 11;
+    opacity: 1;
+    justify-content: center;
 }
 
-.reveal .slides>section.big {
-  background: #CC4B2B
-}
-
-.reveal .big h2 {
-  color:#0B1A31;
-}
-
-.reveal .slides>section.last {
-  background: url("http://lenagroeger.s3.amazonaws.com/talks/openvis/img/many_waldos_by_artists_bkrnd.jpg")
-}
 
 /*********************************************
  * LINEAR TRANSITION
@@ -246,7 +236,7 @@ height: 100%;
  *********************************************/
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 36px;
   font-weight: 300;
 }
@@ -262,7 +252,6 @@ body {
 .reveal h5 {
 margin: 0px;
 line-height: 1.4em;
-letter-spacing: 0.02em;
 font-weight: 300;
 text-shadow: 0px 0px 6px rgba(0,0,0,0.2);
 font-size: 80px;
@@ -273,7 +262,7 @@ padding-bottom: 10px;
 
 .reveal h4 {
 line-height: 1.6em;
-font-size: 50px;
+font-size: 2rem;
 margin: 10px 0px 30px 0px;
 }
 
@@ -304,12 +293,10 @@ text-align: center;
   margin-top:20px;
 }
 
-.reveal h3 {
-  border-bottom: 0px
-}
 
 section div {
-  display: inline-block;
+  display: inline;
+  align-content: center;
 }
 
 .reveal h1 span {

@@ -3,7 +3,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300,700,100,400' rel='stylesheet' type='text/css'>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
     <title>Intro to Design </title>
     <link rel="stylesheet" href="reveal.css">
 <script type="text/javascript" src="jquery.js" ></script>
@@ -12,24 +16,21 @@
 
 
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Karla', serif;
   font-weight: 100;
   font-size: 26px
 }
 
-.reveal h1, .reveal h2 {
-font-weight: bold;
-color:#cb8435;
-display: block;
-clear: both;
-border-bottom: 0px;
-font-size: 135px;
-
+.reveal h2 {
+  font-weight: bold;
+  color:#538090;
+  font-size: 6rem;
 }
 
-.reveal .intro-page h1 {
-  line-height: 1em;
-  font-size: 245px
+.reveal h1 {
+  font-weight:bold;
+  text-transform: uppercase;
+  font-size: 200px;
 }
 
 .reveal .main-section h2 {
@@ -45,30 +46,32 @@ font-size: 135px;
       background: #000;
 }
 
-.reveal .header-section h2 {
-  color:#fff;
-}
-
-.reveal .header-section h3 {
-  color:#cb8435;
-  font-size: 55px
-}
-
-
-
-.reveal h1 {
-  text-transform: uppercase;
-  font-size: 200px;
-}
 
 .reveal h3 {
   font-weight: 300;
   display: block;
-  font-size: 70px;
+  font-size: 3rem;
   color: #000;
   font-weight: 400;
   margin-bottom: 20px
 }
+.reveal .intro-page h3 {
+    display: block;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+}
+
+.reveal .header-section h3 {
+  font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+}
+
 
 
 .reveal p {
@@ -93,15 +96,9 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0);
 max-width: 100%;
 }
 
-.reveal .slides>section {
-  color:#cecece;
-  padding-top: 9%;
-/*  background: url("imgs/background.png") top left;
-*/}
-
 
 .reveal .slides>section.main-section {
-      background: #cb8435;
+      background: #538090;
 }
 .reveal .sliders>section.topic {
   background: rgb(187, 107, 0);
@@ -122,13 +119,14 @@ height: 100%;
 .reveal h5 span {
   font-size: 25px;
   text-transform: uppercase;
-  color:#cb8435;
+  color:#538090;
   clear: both;
   display: inline-block;
 }
 .double img {
   float: left;
-  margin-right: 30px
+  margin-right: 5%;
+  width:45%;
 }
 
 .reveal h4 {
@@ -141,7 +139,7 @@ height: 100%;
 .reveal h4 span {
   font-size: 25px;
   text-transform: uppercase;
-  color:#cb8435;
+  color:#538090;
   clear: both;
   display: inline-block;
 }
@@ -158,14 +156,17 @@ section div.double-wide img{
 }
 
 .intro-page {
-  background: url("imgs/colors.gif") no-repeat top left;
-  background-size: 100%;
-
-
+  background: url("imgs/IMG_0334.jpg") no-repeat top left;
+  background-size: cover;
 }
 
 .intro-page h1 {
-  color: #fff
+  color: #fff;
+  line-height: 10rem;
+}
+
+.reveal section.main-section  img {
+  max-width: 400px;
 }
 </style>
   </head>
@@ -177,366 +178,371 @@ section div.double-wide img{
       <div class="slides">
 
         <section class="intro-page">
-          <h3>Intro to</h3>
-          <h1>Design</h1>
+          <div>
+            <h3>Intro to</h3>
+            <h1>Design</h1>
+          </div>
         </section>
 
-        <section>
+        <section><div>
           <h2>OR</h2>
           <h3>why anyone in journalism <br>should give a crap about design</h3>
 
-        </section>
+        </div></section>
 
 
-        <section>
+        <section><div>
           <h3>Design is</h3>
           <h1 class="invisible">Invisible</h1>
-        </section>
+        </div></section>
 
 
 
 
-        <section>
+        <section><div>
           <h3>Clearview Hwy</h3>
           <img src="imgs/Slide-10.jpg">
-          </section>
+          </div></section>
 
-        <section>
+        <section><div>
           <h3>Clearview Hwy</h3>
           <img src="imgs/Slide-13new.jpg">
-        </section>
+        </div></section>
 
 
-       <section>
+       <section><div>
           <h3>Not so Invisible</h3>
-          <img style="width:60%" src="imgs/doornick.gif">
-        </section>
+          <img src="imgs/doornick.gif">
+        </div></section>
 
-       <section>
+       <section><div>
           <h3>"Turn on the bottom left burner"</h3>
           <img style="width:80%" src="imgs/stove.png">
-        </section>
+        </div></section>
 
 
-       <section>
+       <section><div>
           <h3>Instructions, much?</h3>
           <img src="imgs/Shower-Control-Operation-small.png">
-        </section>
+        </div></section>
 
-       <section>
+       <section><div>
 
           <div class="double-wide"><img width="500px" src="imgs/Vine-Turn-down-for-what-Shower-version_thumb0.jpg"></div>
 
           <div class="double-wide"><h4>&ldquo;When a device as simple as a door needs an instruction manual, it is a failure.&rdquo; <span>- Don Norman</span></h4></div>
 
-        </section>
+        </div></section>
 
 
-        <section>
+        <section><div>
           <h3>Not <em>that</em> invisible</h3>
           <img src="imgs/Glass-Door-Fail-03.gif">
-        </section>
+        </div></section>
 
-        <section>
+        <section><div>
           <h3>Beauty</h3>
           <img src="imgs/NonsensicalInfographic.gif">
-        </section>
+        </div></section>
 
 
-        <section>
+        <section><div>
           <h3>Craigslist</h3>
           <p>Proof that ugly things can be well designed.</p>
           <img src="imgs/craigslist.jpg">
-        </section>
+        </div></section>
 
-       <section class="header-section">
+       <section class="header-section"><div>
           <h2>Design Principles</h2>
           <h3>Four tips for designing anything, ever. </h3>
-          <img src="imgs/mindblown.gif">
-        </section>
+        </div></section>
 
-       <section class="main-section">
+       <section class="main-section"><div>
           <h2>Proximity</h2>
           <h3>Group related things together</h3>
           <img width="600px" src="imgs/applesoranges.png">
-        </section>
+        </div></section>
 
-       <section>
+       <section><div>
           <h3>Proximity</h3>
           <img src="imgs/proximity.png">
-        </section>
+        </div></section>
 
-       <section>
+       <section><div>
           <h3>Proximity</h3>
           <img src="imgs/annotation.jpg">
-        </section>
+        </div></section>
 
 
 
-        <section class="main-section">
+        <section class="main-section"><div>
           <h2>Alignment</h2>
           <h3>Find a line and stick with it</h3>
           <img src="imgs/alignment.gif">
-        </section>
+        </div></section>
 
-       <section>
+       <section><div>
           <h3>Alignment</h3>
           <img src="imgs/tableNPR.jpg">
-        </section>
+        </div></section>
 
-       <section>
+       <section><div>
           <h3>Alignment</h3>
           <img src="imgs/timeline2.jpg">
-        </section>
+        </div></section>
 
 
 
-         <section>
+         <section><div>
           <h3>Alignment</h3>
           <img src="imgs/flushleft.jpg">
-        </section>
+        </div></section>
 
-         <section>
+         <section><div>
           <h3>Alignment</h3>
           <img src="imgs/flushleftex.jpg">
-        </section>
+        </div></section>
 
-         <section>
+         <section><div>
           <h3>Alignment</h3>
           <img src="imgs/flushright.jpg">
-        </section>
+        </div></section>
 
-         <section>
+         <section><div>
           <h3>Alignment</h3>
           <img src="imgs/justified.jpg">
-        </section>
+        </div></section>
 
-         <section>
+         <section><div>
           <h3>Alignment</h3>
           <img src="imgs/justifiedEX.jpg">
-        </section>
-         <section>
+        </div></section>
+         <section><div>
           <h3>Alignment</h3>
           <img src="imgs/justifiedEX2.jpg">
-        </section>
+        </div></section>
 
 
-        <section>
+        <section><div>
           <img  src="imgs/protip1.jpg">
-        </section>
+        </div></section>
 
 
 
-         <section>
+         <section><div>
           <h3>Alignment</h3>
           <img src="imgs/centered.jpg">
-        </section>
+        </div></section>
 
 
-         <section>
+         <section><div>
           <h3>Alignment</h3>
           <img src="imgs/centered2.jpg">
-        </section>
+        </div></section>
 
-        <section>
+        <section><div>
           <h3>If you're</h3>
           <h3>going to make it</h3>
           <h2>CENTERED</h2>
           <h3>be obvious, plz</h3>
-        </section>
+        </div></section>
 
 
 
-        <section>
+        <section><div>
           <h3>Alignment</h3>
           <img src="imgs/trappedspace.jpg">
-        </section>
+        </div></section>
 
 
-        <section class="main-section">
+        <section class="main-section"><div>
           <h3>Now, an Exercise!</h3>
           <img src="imgs/ladle.jpg">
-        </section>
+        </div></section>
 
 
-        <section>
+        <section><div>
           <h3>Before & After</h3>
           <img src="imgs/ladle.jpg">
           <img src="imgs/ladle2.jpg">
-        </section>
+        </div></section>
 
 
-        <section class="main-section">
+        <section class="main-section"><div>
           <h2>Contrast</h2>
           <h3>If its not the same, make it very different</h3>
           <img width="300px" src="imgs/bigsmall.png">
-        </section>
+        </div></section>
 
-       <section>
+       <section><div>
        <h3>Contrast</h3>
           <img width="900px" src="imgs/contrastsize.jpg">
           <p>You can't contrast 12pt with 13pt</p>
-        </section>
-       <section>
+        </div></section>
+       
+
+       <section><div>
        <h3>Contrast</h3>
           <img  src="imgs/contrastsizeEx.jpg">
-        </section>
-       <section>
+        </div></section>
+       
+
+       <section><div>
        <h3>Contrast</h3>
           <img  src="imgs/contrastcolor.jpg">
           <p>You can't contrast black with dark brown. srsly.</p>
-        </section>
+        </div></section>
 
-       <section>
+       <section><div>
           <h3>Contrast</h3>
           <img  src="imgs/contrastcolorEx.jpg">
-        </section>
+        </div></section>
 
-       <section>
+       <section><div>
           <h3>Contrast</h3>
           <img  src="imgs/wayfinding.jpg">
-        </section>
+        </div></section>
 
 
-       <section>
+       <section><div>
           <img  src="imgs/protip2.jpg">
-        </section>
+        </div></section>
 
 
-        <section>
+        <section><div>
           <h3>Contrast</h3>
           <a href="imgs/whitespaceEx.jpg"><img src="imgs/whitespaceEx.jpg"></a>
-        </section>
+        </div></section>
 
-       <section>
+       <section><div>
         <h3>don't be a </h3>
           <img src="imgs/wimp.jpg">
           <p>if it's supposed to be different, make it different for goodness sake!</p>
-        </section>
+        </div></section>
 
 
 
-        <section>
+        <section><div>
           <h3>Contrast</h3>
           <img src="imgs/eephus.jpg">
-        </section>
+        </div></section>
 
 
-       <section>
+       <section><div>
           <img src="imgs/protip3.jpg">
-        </section>
+        </div></section>
 
 
-      <section>
+      <section><div>
           <h3>Contrast</h3>
           <img src="imgs/planetmoney.jpg">
-        </section>
+        </div></section>
 
-        <section>
+        <section><div>
           <h3>Contrast</h3>
           <img src="imgs/marshall.jpg">
-        </section>
+        </div></section>
 
 
-       <section class="main-section">
+       <section class="main-section"><div>
           <h2>Repetition</h2>
           <h3>Pick a visual element & use it over and over</h3>
           <img width="800px" src="imgs/monroe.jpg">
-        </section>
+        </div></section>
 
-      <section>
+      <section><div>
           <h3>Repetition</h3>
           <a target="_blank" href="http://espn.go.com/espn/eticket/story?page=Dock-Ellis"><img src="imgs/repetitionstory.jpg"></a>
-        </section>
+        </div></section>
 
-      <section>
+      <section><div>
           <h3>Repetition</h3>
           <img width="800px" src="imgs/timemag.jpg">
-      </section>
+      </div></section>
 
 
 
-      <section>
+      <section><div>
           <h3>Repetition</h3>
           <img width="800px" src="imgs/dosomethingblue.jpg">
-      </section>
+      </div></section>
 
-      <section>
+      <section><div>
           <h3>Repetition</h3>
           <img width="800px" src="imgs/repetition.jpg">
-        </section>
+        </div></section>
 
-      <section>
+      <section><div>
           <h3>Repetition</h3>
           <a href="http://harvardlawreview.org/"><img src="imgs/repetitionmobile.jpg"></a>
-        </section>
+        </div></section>
 
 
-      <section>
+      <section><div>
           <h3>Repetition</h3>
           <img src="imgs/joblessrate.jpg">
-        </section>
+        </div></section>
 
 
-      <section class="main-section">
+      <section class="main-section"><div>
           <h2>To Summarize:</h3>
           <h3>Proximity</h3>
           <h3>Alignment</h3>
           <h3>Contrast</h3>
           <h3>Repetition</h3>
-      </section>
+      </div></section>
 
 
-      <section>
+      <section><div>
           <h3>Principles In the Wild</h3>
           <p>Just your everyday credit card disclosure statement</p>
           <img width="400px" src="imgs/creditcard1.jpg">
-        </section>
+        </div></section>
 
-      <section>
+      <section><div>
           <h3>Principles In the Wild</h3>
           <p>A total redesign! </p>
           <img src="imgs/creditcard2.jpg">
-        </section>
+        </div></section>
 
-      <section>
+      <section><div>
         <div class="double">
           <h3>Before & After</h3>
           <img  src="imgs/creditcard1.jpg">
           <img  src="imgs/creditcard2.jpg">
         </div>
-      </section>
+      </div></section>
 
 
-       <section class="main-section">
+       <section class="main-section"><div>
           <h3>Now, an Exercise!</h3>
           <img src="imgs/resumebefore.jpg">
-        </section>
+        </div></section>
 
-        <section>
+        <section><div>
           <h3>Before & After</h3>
           <img src="imgs/resumebeforeafter.jpg">
-        </section>
+        </div></section>
 
 
-      <section class="header-section">
+      <section class="header-section"><div>
         <h2>Details</h2>
         <h3>The details are not the details.<br>
         They MAKE the design. <span>CHARLES EAMES</span></h3>
         <img width="240px"src="imgs/details.gif">
-      </section>
+      </div></section>
 
 
-   <section class="main-section">
+   <section class="main-section"><div>
       <h2>Give Hints</h2>
       <h3>What do I do here?</h3>
       <br>
       <img style="max-width:900px;margin-bottom:0px" src="imgs/scrolldown.gif">
       <img style="max-width:900px;margin-top:0px" src="imgs/oliveoilgif.gif">
-     </section>
+     </div></section>
 
 
-    <section>
+    <section><div>
       <div class="double">
         <h3>Affordances</h3>
         <br>
@@ -544,85 +550,115 @@ section div.double-wide img{
         <img  src="imgs/wheelroll.gif">
         <img  src="imgs/flick.gif">
       </div>
-    </section>
+    </div></section>
 
 
-    <section>
+    <section><div>
       <h3>Online Affordances</h3>
       <p></p>
       <img  src="imgs/onlineaffordances.png">
-    </section>
+    </div></section>
 
 
-     <section>
+     <section><div>
       <h3>Hints</h3>
       <img width="800px"src="imgs/bloomberg.gif">
-     </section>
+     </div></section>
 
 
-     <section>
+     <section><div>
       <div class="double">
       <h3>Hints</h3>
       <img width="350px"src="imgs/oliveoilgiffull.gif">
       <img width="307px"src="imgs/helmetsgif.gif">
       </div>
-     </section>
+     </div></section>
 
-     <section>
+     <section><div>
       <h3>Hints</h3>
       <img width="500px"src="imgs/swipe.png"><img style="padding-left:20px" width="240px"src="imgs/hinttoscroll.jpg">
-     </section>
+     </div></section>
 
 
-      <section class="main-section">
+      <section class="main-section"><div>
       <h2>Bring it Forward</h2>
         <h3>Don't make me click</h3>
         <img src="imgs/LiveWeather.gif">
-      </section>
+      </div></section>
 
 
-        <section><h3>Bring it Forward</h3>
+        <section><div><h3>Bring it Forward</h3>
           <img src="imgs/chromeSoundIconDataForward.jpg">
-        </section>
+        </div></section>
 
-        <section><h3>Bring it Forward</h3><img width="300px"  src="imgs/weatherappBlurDataForward.jpg"></section>
+        <section><div><h3>Bring it Forward</h3><img width="300px"  src="imgs/weatherappBlurDataForward.jpg"></div></section>
 
-        <section><h3>Bring it Forward</h3><img src="imgs/migration.jpg"></section>
+        <section><div><h3>Bring it Forward</h3><img src="imgs/migration.jpg"></div></section>
 
-        <section class="main-section">
+        <section class="main-section"><div>
           <h2>Prevent Errors</h2>
           <h3>Don't let me mess up</h3>
           <img width="300px"src="imgs/coffeegrinder.jpg">
 
+        </div></section>
+
+
+        <section>
+          <div>
+            <h3>Prevent Errors</h3><img width="400px" src="imgs/soupangles.jpg">
+          </div>
+        </section>
+
+        <section>
+          <div>
+            <h3>Prevent Errors</h3><img src="imgs/DateEntryPreventErrors.jpg">
+          </div>
         </section>
 
 
-        <section><h3>Prevent Errors</h3><img width="400px" src="imgs/soupangles.jpg"></section>
-        <section><h3>Prevent Errors</h3><img src="imgs/DateEntryPreventErrors.jpg"></section>
-
-
-        <section><h3>Prevent Errors</h3><img src="imgs/cancelPayment1PreventErrors.jpg"></section>
+        <section>
+          <div>
+            <h3>Prevent Errors</h3><img src="imgs/cancelPayment1PreventErrors.jpg">
+          </div>
+        </section>
 
         <section class="main-section">
+          <div>
           <h2>Surprise me!</h2>
           <h3>(and just make my life easier)</h3>
           <img src="imgs/shakephone.gif">
-        </section>
+        </div></section>
 
 
         <section>
           <div class="double">
             <h3>Humor</h3>
-          <img width="500px" src="imgs/surprisesnickers.jpg">
-          <img width="500px" src="imgs/surprisegooglevoice.jpg">
-        </div>
-        </section>
+          <img src="imgs/surprisesnickers.jpg">
+          <img src="imgs/surprisegooglevoice.jpg">
+        </div></section>
 
-        <section><h3>Delight</h3>
+        <section><div><h3>Delight</h3>
           <img src="imgs/spinner.gif">
-        </section>
+        </div></section>
 
 
+        <section>
+        <div class="double">
+          <h3>Two Books</h3>
+          <img style="height:400px" src="imgs/non-designers.jpg">
+          <img style="height:400px" src="imgs/thinking-type.jpg">
+        </div>
+      </section>
+
+
+      <section>
+        <div>
+
+          <h3 style="padding-top:100px">Thanks.</h3>
+          <p style="width:100%"> Lena Groeger | @lenagroeger </p>
+
+        </div>
+      </section>
 
 
    </div>

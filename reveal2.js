@@ -217,11 +217,11 @@ var Reveal = (function(){
 		}
 
 		if( config.controls && dom.controls ) {
-			dom.controls.style.display = 'block';
+			dom.controls.style.display = 'flex';
 		}
 
 		if( config.progress && dom.progress ) {
-			dom.progress.style.display = 'block';
+			dom.progress.style.display = 'flex';
 		}
 
 		// Load the theme in the config, if it's not already loaded
@@ -541,7 +541,7 @@ var Reveal = (function(){
 					htransform = 'translateZ(-2500px) translate(' + ( ( i - indexh ) * 105 ) + '%, 0%)';
 
 				hslide.setAttribute( 'data-index-h', i );
-				hslide.style.display = 'block';
+				hslide.style.display = 'flex';
 				hslide.style.WebkitTransform = htransform;
 				hslide.style.MozTransform = htransform;
 				hslide.style.msTransform = htransform;
@@ -561,7 +561,7 @@ var Reveal = (function(){
 
 					vslide.setAttribute( 'data-index-h', i );
 					vslide.setAttribute( 'data-index-v', j );
-					vslide.style.display = 'block';
+					vslide.style.display = 'flex';
 					vslide.style.WebkitTransform = vtransform;
 					vslide.style.MozTransform = vtransform;
 					vslide.style.msTransform = vtransform;
@@ -689,7 +689,7 @@ var Reveal = (function(){
 					// and last slides
 					var distance = Math.abs( ( index - i ) % ( slidesLength - 3 ) ) || 0;
 
-					slide.style.display = distance > 3 ? 'none' : 'block';
+					slide.style.display = distance > 3 ? 'none' : 'flex';
 				}
 
 				slides[i].classList.remove( 'past' );
